@@ -162,5 +162,6 @@
     "react-native-safe-area-context": "^5.6.1",
     "react-native-svg": "^15.2.0",
     "react-native-worklets": "^0.5.1"
-  }
+  },
+  "private": false
 }
