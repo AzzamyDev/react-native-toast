@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-toast-example",
+    "example": "yarn workspace react-native-toast-example start",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -69,10 +69,13 @@
     "@release-it/conventional-changelog": "^10.0.1",
     "@types/jest": "^29.5.14",
     "@types/react": "^19.1.12",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
     "commitlint": "^19.8.1",
     "del-cli": "^6.0.0",
-    "eslint": "^9.35.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "latest",
     "eslint-plugin-prettier": "^5.5.4",
     "jest": "^29.7.0",
     "prettier": "^3.6.2",
@@ -84,7 +87,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-svg": "*"
   },
   "workspaces": [
     "example"
@@ -150,5 +154,12 @@
     "languages": "js",
     "type": "library",
     "version": "0.54.3"
+  },
+  "dependencies": {
+    "react-native-gesture-handler": "^2.20.2",
+    "react-native-reanimated": "^4.1.0",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-svg": "^15.2.0",
+    "react-native-worklets": "^0.5.1"
   }
 }
