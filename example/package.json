@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@azzamydev/react-native-toast": "link:./lib/module",
     "@expo/metro-runtime": "~6.1.1",
     "expo": "~54.0.7",
     "expo-status-bar": "~3.0.8",
@@ -19,7 +20,6 @@
     "react-native-reanimated": "^4.1.0",
     "react-native-safe-area-context": "^5.6.1",
     "react-native-svg": "^15.2.0",
-    "react-native-toast": "link:./lib/module",
     "react-native-web": "~0.21.0",
     "react-native-worklets": "^0.5.1"
   },

@@ -5,7 +5,11 @@ import {
   TouchableOpacity,
   ScrollView,
 } from 'react-native';
-import { ToastProvider, useToast, ToastContainer } from '@azzamydev/react-native-toast';
+import {
+  ToastProvider,
+  useToast,
+  ToastContainer,
+} from '@azzamydev/react-native-toast';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const ToastDemo = () => {
