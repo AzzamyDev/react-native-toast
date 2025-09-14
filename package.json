@@ -1,5 +1,5 @@
 {
-  "name": "react-native-toast",
+  "name": "@azzamydev/react-native-toast",
   "version": "0.1.0",
   "description": "Toast React Native",
   "main": "./lib/module/index.js",

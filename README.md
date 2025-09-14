@@ -18,7 +18,7 @@ A beautiful, customizable, and animated toast notification library for React Nat
 ## Installation
 
 ```sh
-npm install react-native-toast
+npm install @azzamydev/react-native-toast
 ```
 
 ### Dependencies
@@ -42,7 +42,7 @@ Wrap your app with `ToastProvider` and add `ToastContainer`:
 
 ```tsx
 import React from 'react';
-import { ToastProvider, ToastContainer } from 'react-native-toast';
+import { ToastProvider, ToastContainer } from '@azzamydev/react-native-toast';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
@@ -62,7 +62,7 @@ export default function App() {
 ```tsx
 import React from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
-import { useToast } from 'react-native-toast';
+import { useToast } from '@azzamydev/react-native-toast';
 
 const MyComponent = () => {
   const { show } = useToast();
@@ -274,7 +274,7 @@ import type {
   ToastOptions,
   ToastData,
   ToastContextType,
-} from 'react-native-toast';
+} from '@azzamydev/react-native-toast';
 ```
 
 ## Requirements
